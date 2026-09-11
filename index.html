@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ff6a00">
+<meta name="description" content="AM Store — shop products online and order quickly on WhatsApp.">
+<title>AM Store — Online Shopping</title>
+
+<style>
+:root{
+ --orange:#ff6a00;
+ --orange2:#ff8a00;
+ --bg:#f5f5f5;
+ --card:#fff;
+ --text:#222;
+ --muted:#777;
+ --line:#eee;
+ --green:#16a34a;
+ --danger:#dc2626;
+}
+*{box-sizing:border-box}
+html,body{
+ margin:0;
+ padding:0;
+ font-family:Arial,Helvetica,sans-serif;
+ background:var(--bg);
+ color:var(--text)
+}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer;border:0}
+
+.top{
+ background:linear-gradient(135deg,var(--orange),var(--orange2));
+ color:white;
+ position:sticky;
+ top:0;
+ z-index:50;
+ box-shadow:0 2px 8px #0002
+}
+
+.header{
+ max-width:1200px;
+ margin:auto;
+ padding:12px 14px;
+ display:flex;
+ align-items:center;
+ gap:12px
+}
+
+.logo{
+ font-size:24px;
+ font-weight:900;
+ white-space:nowrap
+}
+
+.tag{
+ font-size:11px;
+ opacity:.9
+}
+
+.search{
+ flex:1;
+ display:flex;
+ background:#fff;
+ border-radius:8px;
+ overflow:hidden;
+ max-width:650px;
+ margin:auto
+}
+
+.search input{
+ border:0;
+ outline:0;
+ padding:11px 13px;
+ width:100%;
+ color:#222
+}
+
+.search button{
+ background:#fff;
+ color:var(--orange);
+ padding:0 14px;
+ font-size:20px
+}
+
+.headBtns{
+ display:flex;
+ gap:7px
+}
+
+.headBtn{
+ background:#ffffff22;
+ color:#fff;
+ border-radius:8px;
+ padding:9px 10px;
+ font-weight:700
+}
+
+.wrap{
+ max-width:1200px;
+ margin:auto;
+ padding:12px 14px 90px
+}
+
+.hero{
+ background:linear-gradient(120deg,#fff,#fff7ef);
+ border-radius:14px;
+ padding:22px;
+ margin-bottom:12px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ gap:15px
+}
+
+.hero h1{
+ margin:0 0 6px;
+ font-size:28px
+}
+
+.hero p{
+ margin:0;
+ color:var(--muted)
+}
+
+.badge{
+ background:#fff0e6;
+ color:var(--orange);
+ padding:9px 12px;
+ border-radius:20px;
